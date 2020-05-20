@@ -9,9 +9,9 @@ How to use this:
     import PeekableIterator
 
     enum Token {
-        LessThan,
-        LessThanEqual,
-        Equal,
+        case LessThan
+        case LessThanEqual
+        case Equal
     }
 
     func tokenize(s: String) -> [Token] {
